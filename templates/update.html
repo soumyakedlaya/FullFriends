@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>update</title>
+</head>
+<body>
+	<form action='/confirmupdate/{{friend[0]["id"]}}' method='post'>
+	First Name: <input type='text' name='first_name' placeholder="{{friend[0]['first_name']}}">
+	Last Name: <input type='text' name='last_name' placeholder="{{friend[0]['last_name']}}">
+	Email Address: <input type='text' name='email' placeholder="{{friend[0]['email']}}">
+		<input type='submit' value='Submit'>
+	</form>	
+	<a href="/"><button>Go Back</button></a>
+</body>
+</html>
+

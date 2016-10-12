@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>delete</title>
+</head>
+<body>
+	<h1>Are you sure you would like to delete {{friend[0]['first_name']}}{{friend[0]['last_name']}}</h1>
+	<a href="/deleteuser/{{friend[0]['id']}}" method='post'><button>Yes</button></a>
+	<a href="/"><button>No</button></a>
+</body>
+</html>
